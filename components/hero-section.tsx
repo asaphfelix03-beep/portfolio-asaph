@@ -1,7 +1,7 @@
 "use client";
 
 import { motion, useScroll, useTransform } from "framer-motion";
-import { ArrowDown, Github, Linkedin, Mail, FileText, Sparkles } from "lucide-react";
+import { ArrowDown, Github, Linkedin, Mail, Download, Sparkles } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 
@@ -139,9 +139,9 @@ export default function HeroSection() {
               className="px-8 py-4 rounded-full text-muted-foreground hover:text-primary transition-all"
               asChild
             >
-              <a href="/cv-asaph-01.pdf" target="_blank" rel="noopener noreferrer">
-                <FileText size={20} className="mr-2" />
-                Voir le CV
+              <a href="/cv-asaph-01.pdf" download="CV-Asaph-Felix.pdf">
+                <Download size={20} className="mr-2" />
+                Télécharger le CV
               </a>
             </Button>
           </motion.div>
