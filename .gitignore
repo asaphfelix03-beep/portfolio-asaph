@@ -9,6 +9,10 @@ __v0_jsx-dev-runtime.ts
 # Environment variables
 .env*.local
 
+# Local duplicate assets
+cv-asaph-01.pdf
+CV asaph 01.pdf
+
 # Common ignores
 node_modules
 .next/
